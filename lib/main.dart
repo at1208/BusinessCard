@@ -18,8 +18,28 @@ class App extends StatelessWidget{
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-//                backgroundColor: Colors.indigo,
+                radius: 50,
+                backgroundColor: Colors.indigo,
+              ),
+             Text('Aman Tiwari', style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold
+             ),
+             ),
+              Text('Full Stack Web Developer',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w400,color: Colors.black
+              
+             ),),
+             FlatButton(
+              onPressed: () => {},
+              child: Column(
+                children: <Widget>[
+                  Text('www.amantiwari.me', style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold
+             ),
+             ),
+                  Text('+919140283263', style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold
+             ),)
+                ],
               )
+             ),
+            
             ],
           )
         )
